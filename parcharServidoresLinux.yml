@@ -6,3 +6,8 @@
     - name: Dame un mensaje 
       ansible.builtin.debug: 
         msg: "Bienvenido al mundo Ansible"
+
+    - name: Upgrade all packages
+      ansible.builtin.dnf:
+        name: "*"
+        state: latest

@@ -1,6 +1,6 @@
 ---
  - name: Parcha un conjunto de servidores linux
-   # A quienes se le va a operar
+   # A quienes se le va a operar el parchado
    hosts: all
    tasks:
     - name: Dame un mensaje 
